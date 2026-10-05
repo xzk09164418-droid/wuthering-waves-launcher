@@ -1,0 +1,21 @@
+ww_launcher:
+  launcher_exe: C:\Program Files\Wuthering Waves\launcher.exe
+  game_dir: C:\Program Files\Wuthering Waves\Wuthering Waves Game
+  launcher_names:
+  - launcher.exe
+  - launcher_main.exe
+  window_keywords:
+  - 鸣潮
+  - Wuthering
+  start_texts:
+  - 开始游戏
+  - 进入游戏
+  - 启动游戏
+  game_names:
+  - Client-Win64-Shipping.exe
+  timeout: 180
+  poll_interval: 2
+  ready_seconds: 5
+  click_interval: 20
+  max_clicks: 3
+  prefer_uia: true
